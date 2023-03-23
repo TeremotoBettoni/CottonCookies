@@ -13,7 +13,8 @@ Web de promoción y venta de galletas decoradas personalizadas a pedido o por te
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 # Diseño de pagina
-![Figma](https://www.figma.com/file/UEsQrRmEYCvFJo6X0U5LSZ/Cotton-Cookies?node-id=0-1&t=lrvOZLmV0ePMy363-0)
+<a href="https://www.figma.com/file/UEsQrRmEYCvFJo6X0U5LSZ/Cotton-Cookies?node-id=0-1&t=lrvOZLmV0ePMy363-0" target="_blank" rel="noreferrer"> <img src="https://e7.pngegg.com/pngimages/718/7/png-clipart-user-interface-design-figma-computer-software-user-experience-design-web-design-user-interface-design.png" alt="java" width="40" height="40"/> </a> 
+
 
 # Avances
 ## 09-03-2022
