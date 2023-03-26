@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #full-screen-image {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: url("imagen.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+    .content {
+        padding: 80px 10%;
+        }
+        
+        .content p {
+            font-size: 1em;
+        }
+    
+    
+    @media screen and (max-width: 320px) {
+        .content p {
+            font-size: 0.9em;
+        }
+    }
+    
+    .content img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .content p {
+        font-size: 1.3em;
+        line-height: 1.4em;
+        max-width: 60%;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .content {
+            flex-direction: column;
+        }
+        
+        .content img {
+            margin-bottom: 20px;
+            max-width: 70%;
+        }
+        
+        .content p {
+            font-size: 1.1em;
+            max-width: 90%;
+            padding: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .content img {
+            margin-bottom: 10px;
+            max-width: 90%;
+        }
+    }
+    </style>
+<body>
+    <div id="full-screen-image">
+        <div class="content">
+            <img src="assets/img/fondo.png" alt="Imagen" />
+            <p>Texto centrado en el lado derecho</p>
+        </div>
+    </div>
+</body>
+</html>
