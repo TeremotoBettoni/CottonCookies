@@ -4,75 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/home-header.css">
+    <title>Cotton Cookies</title>
 </head>
-<style>
-    #full-screen-image {
-        background-size: cover;
-        background: url("imagen.jpg") no-repeat center center fixed;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-    }
-    
-    .content {
-        padding: 80px 10%;
-        }
-        
-        .content p {
-            font-size: 1em;
-        }
-    
-    
-    @media screen and (max-width: 320px) {
-        .content p {
-            font-size: 0.9em;
-        }
-    }
-    
-    .content img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-    }
-    
-    .content p {
-        font-size: 1.3em;
-        line-height: 1.4em;
-        max-width: 60%;
-        padding: 30px;
-        text-align: center;
-    }
-    
-    @media screen and (max-width: 768px) {
-        .content {
-            flex-direction: column;
-        }
-        
-        .content img {
-            margin-bottom: 20px;
-            max-width: 70%;
-        }
-        
-        .content p {
-            font-size: 1.1em;
-            max-width: 90%;
-            padding: 15px;
-        }
-    }
-    
-    @media screen and (max-width: 480px) {
-        .content img {
-            margin-bottom: 10px;
-            max-width: 90%;
-        }
-    }
-    </style>
 <body>
-    <div id="full-screen-image">
-        <div class="content">
-            <img src="assets/img/fondo.png" alt="Imagen" />
-            <p>Texto centrado en el lado derecho</p>
+    <!-- Main Header-->
+    <header class="main-header">
+        <!-- Menu Wave -->
+        <div class="menu_wave"></div>
+
+        <!-- Main box -->
+        <div class="main-box">
+            <div class="menu-box">
+                <div class="logo"><a href="index.html"><img src="assets/img/Logo_Cooton_Cookies.png" alt="Logo" title="Logo"></a></div>
+
+                <!--Nav Box-->
+                <div class="nav-outer clearfix">
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-md navbar-light">
+                        <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                            <ul class="navigation menu-left clearfix">
+                                <li class="current dropdown"><a href="index.html">Home</a></li>
+                                <li class="dropdown"><a href="about-us.html">About Us</a>
+                                    <ul>
+                                        <li><a href="about-us.html">History</a></li>
+                                        <li><a href="our-staff.html">Our Staff</a></li>
+                                        <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="portfolio-masonry.html">Products</a></li>
+                            </ul>
+                            <ul class="navigation menu-right clearfix">
+                                <li class="dropdown"><a href="blog-showcase.html">Creations</a>
+                                    <ul>
+                                        <li><a href="blog-showcase.html">Standard</a></li>
+                                        <li><a href="blog-standard.html">Ocatios</a></li>
+                                        <li><a href="blog-standard.html">Specials</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="shop.html">Shop</a>
+                                    <ul>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="shopping-cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="login.html">My account</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+
+                    <div class="outer-box clearfix">
+                        <!-- Shoppping Car -->
+                        <div class="cart-btn">
+                            <a href="shopping-cart.html"><i class="icon flaticon-commerce"></i> <span class="count">2</span></a>
+
+                            <div class="shopping-cart">
+                                <ul class="shopping-cart-items">
+                                    <li class="cart-item">
+                                        <img src="https://via.placeholder.com/300x300" alt="#" class="thumb"/>
+                                        <span class="item-name">Birthday Cake</span>
+                                        <span class="item-quantity">1 x <span class="item-amount">$84.00</span></span>
+                                        <a href="shop-single.html" class="product-detail"></a>
+                                        <button class="remove-item"><span class="fa fa-times"></span></button>
+                                    </li>
+
+                                    <li class="cart-item">
+                                        <img src="https://via.placeholder.com/300x300" alt="#" class="thumb">
+                                        <span class="item-name">French Macaroon</span>
+                                        <span class="item-quantity">1 x <span class="item-amount">$13.00</span></span>
+                                        <a href="shop-single.html" class="product-detail"></a>
+                                        <button class="remove-item"><span class="fa fa-times"></span></button>
+                                    </li>
+                                </ul>
+
+                                <div class="cart-footer">
+                                    <div class="shopping-cart-total"><strong>Subtotal:</strong> $97.00</div>
+                                    <a href="cart.html" class="theme-btn">View Cart</a>
+                                    <a href="checkout.html" class="theme-btn">Checkout</a>
+                                </div>
+                            </div> <!--end shopping-cart -->
+                        </div>
+
+                        <!-- Search Btn -->
+                        <div class="search-box">
+                            <button class="search-btn"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo">
+                    <a href="#" title="Sticky Logo"><img src="images/logo-small.png" alt="Sticky Logo"></a>
+                </div>
+
+                <!--Right Col-->
+                <div class="nav-outer">
+                    <!--Mobile Navigation Toggler-->
+                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                    
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo">
+                    <a href="#" title="Sticky Logo"><img src="images/logo-small.png" alt="Sticky Logo"></a>
+                </div>
+
+                <!--Right Col-->
+                <div class="nav-outer">
+                    <!--Mobile Navigation Toggler-->
+                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                    
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+        
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="logo"><a href="index.html"><img src="images/logo-small.png" alt="" title=""></a></div>
+
+            <!--Nav Box-->
+            <div class="nav-outer clearfix">
+                <!--Keep This Empty / Menu will come through Javascript-->
+            </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo-small.png" alt="" title=""></a></div> 
+                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+        <!-- Header Search -->
+        <div class="search-popup">
+            <span class="search-back-drop"></span>
+            
+            <div class="search-inner">
+                <button class="close-search"><span class="fa fa-times"></span></button>
+                <form method="post" action="blog-showcase.html">
+                    <div class="form-group">
+                        <input type="search" name="search-field" value="" placeholder="Search..." required="">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Header Search -->
+
+    </header>
+    <!--End Main Header -->
 </body>
 </html>
