@@ -7,10 +7,10 @@ Web de promoción y venta de galletas decoradas personalizadas a pedido o por te
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#fefefe](https://via.placeholder.com/10/0a192f?text=+) #fefefe |
-| Example Color | ![#4b4342](https://via.placeholder.com/10/f8f8f8?text=+) #4b4342 |
-| Example Color | ![#5fcac7](https://via.placeholder.com/10/00b48a?text=+) #5fcac7 |
-| Example Color | ![#ff91a4](https://via.placeholder.com/10/00b48a?text=+) #ff91a4 |
+| Example Color | ![#fefefe](https://via.placeholder.com/10/fefefe?text=+) #fefefe |
+| Example Color | ![#4b4342](https://via.placeholder.com/10/4b4342?text=+) #4b4342 |
+| Example Color | ![#5fcac7](https://via.placeholder.com/10/5fcac7?text=+) #5fcac7 |
+| Example Color | ![#ff91a4](https://via.placeholder.com/10/ff91a4?text=+) #ff91a4 |
 
 ## Inspiración 
 
