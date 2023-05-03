@@ -27,24 +27,20 @@
 
 /*
 ====================================================================
-	Grid
+	Grid contact
 ====================================================================
  ***/
 
-body {
+main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-        "h h h h h h"
-		"r r r r r r"    
         "t t t t t t"       
         "c c c d d d" 
         "c c c d d d"     
         "f f f f f f";
     gap: 10px;
 }
-header {grid-area: h;}
-#carousel{grid-row: r;}
 
 .title-principal{grid-area: t;
 	text-align: center;
@@ -58,7 +54,6 @@ header {grid-area: h;}
 .contact-dates{grid-area: d;
     
 }
-footer {grid-area: f;}
 
 /*** 
 ====================================================================
@@ -69,7 +64,7 @@ footer {grid-area: f;}
 body {
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
-	background-color: #f0909f;
+	background-color: #fefefe;
 	color:#4b4342;
 	font-family: 'ABeeZee', sans-serif;
 	font-size:14px;

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/home-footer.css">
     <link rel="stylesheet" href="assets/css/forms.css">
     <link rel="stylesheet" href="assets/css/caroucel.css">
+    <link rel="stylesheet" href="assets/css/pageTitle.css">
 </head>
 <body>
     <!--Header section-->
@@ -37,67 +38,73 @@
         </div>
     </header>
 
-    <section>
-        <h2 style="text-align:center">CONTACT</h2>
-        <div class="carousel">
-            <img src="assets/img/galletas-navidad.jpg">
-            <img src="assets/img/galletas-beachs.jpg">
-            <img src="assets/img/galletas-navidad-cooking.jpg">
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(https://i.postimg.cc/3R79qBFb/galletas-navidad-cooking.jpg)">
+        <div class="auto-container">
+            <h1>Contacts</h1>
+            <ul class="page-breadcrumb">
+                <li><a href="index.html">home</a></li>
+                <li>Contacts</li>
+            </ul>
         </div>
     </section>
+    <!--End Page Title-->
+    <main>
+        <section class="title-principal">
+            <img src="assets/img/iconoCookie.png" alt="iconCookie" class="icon">
+            <h2 class="title1">Contacts Us</h2>
+        </section>
+        <div class="contact">
+            <section class="title">
+                <img src="assets/img/icon-devider-gray.png" alt="iconmidel" class="icon">
+                <h4 class="title2">Send Message</h4>
+            </section>
+            <div class="contact-form">
+                <form action="/contacto" method="post">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <span></span><br>
+
+                    <label for="lastname"></label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required>
+                    <span></span><br>
+
+                    <label for="rut"></label>
+                    <input type="text" id="rut" name="rut" placeholder="Your RUT" required>
+                    <span></span><br>
+                    
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <span></span><br>
+                    
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Text Message" required></textarea>
+                    <span></span><br>
+                    
+                    <input type="submit" id="submit" class="theme-btn-send" value="Send">
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-dates">
+            <section class="title">
+                <img src="assets/img/icon-devider-gray.png" alt="iconmidel" class="icon">
+                <h4 class="title2">Our Contacts</h4>
+            </section>
+            <ul class="contact-info">
+                <li>Region Metropolitana de Santiago, Chile</li>
+                <li>
+                    <a href="tel:+56942102800">+56 9 4210 2800</a>
+                    <a href="tel:+56951020344">+56 9 5102 0344</a>
+                </li>
+                <li>
+                    <a href="mailto:infocottoncookies@gmail.com">infocottoncookies@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </main>
     
-    <section class="title-principal">
-        <img src="assets/img/iconoCookie.png" alt="iconCookie" class="icon">
-        <h2 class="title1">Contacts Us</h2>
-    </section>
-    <div class="contact">
-        <section class="title">
-            <img src="assets/img/icon-devider-gray.png" alt="iconmidel" class="icon">
-            <h4 class="title2">Send Message</h4>
-        </section>
-        <div class="contact-form">
-            <form action="/contacto" method="post">
-                <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <span></span><br>
-
-                <label for="lastname"></label>
-                <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required>
-                <span></span><br>
-
-                <label for="rut"></label>
-                <input type="text" id="rut" name="rut" placeholder="Your RUT" required>
-                <span></span><br>
-                
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <span></span><br>
-                
-                <label for="message"></label>
-                <textarea id="message" name="message" placeholder="Text Message" required></textarea>
-                <span></span><br>
-                
-                <input type="submit" id="submit" class="theme-btn-send" value="Send">
-                
-            </form>
-        </div>
-    </div>
-    <div class="contact-dates">
-        <section class="title">
-            <img src="assets/img/icon-devider-gray.png" alt="iconmidel" class="icon">
-            <h4 class="title2">Our Contacts</h4>
-        </section>
-        <ul class="contact-info">
-            <li>Region Metropolitana de Santiago, Chile</li>
-            <li>
-                <a href="tel:+56942102800">+56 9 4210 2800</a>
-                <a href="tel:+56951020344">+56 9 5102 0344</a>
-            </li>
-            <li>
-                <a href="mailto:infocottoncookies@gmail.com">infocottoncookies@gmail.com</a>
-            </li>
-        </ul>
-    </div>
+    
     <footer>
         <section>
             <ul class="footerUp">
