@@ -117,6 +117,12 @@ img {
     color: #4b4342;
 }
 
+.seccions-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*
 ====================================================================
 	Scroll To Top style
@@ -285,4 +291,64 @@ svg {
     line-height: 1.2em;
     color: #4b4342;
     font-weight: 500;
+}
+
+/*** 
+
+====================================================================
+		Muestras Section
+====================================================================
+
+***/
+
+.muestras-section{
+	position: relative;
+	padding: 60px 0 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: -85px;
+}
+
+
+.muestras-section .content-column{
+	position: relative;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.muestras-section .content-column .inner-column{
+	position: relative;
+	padding-top: 80px;
+}
+
+.muestras-section .sec-title{
+	margin-bottom: 0;
+}
+
+.muestras-section .sec-title .divider{
+	margin-bottom: 0;
+}
+
+.muestras-section h4{
+	font-size: 28px;
+	line-height: 1.4em;
+	color: #ff91a4;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.muestras-section .divider{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.muestras-section .divider img{
+	height: 41px;
+	display: inline-block;
+}
+
+.muestras-section p{
+	position: relative;
+	margin-bottom: 30px;
 }
