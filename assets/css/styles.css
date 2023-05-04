@@ -172,3 +172,117 @@ svg {
 .scroll-to-top:hover svg{
 	fill: #ff91a4;
 }
+
+.shape_inner,
+.shape_wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-mask-position: top;
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
+.shape_wrapper .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    content: "";
+}
+
+/*** 
+
+====================================================================
+	About Section Two
+====================================================================
+
+***/
+
+.about-section-two{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0 120px;
+}
+
+.about-section-two .sec-title{
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section-two .content-box{
+	position: relative;
+	max-width: 570px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about-section-two .content-box p{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.about-section-two .designation{
+	font-size: 18px;
+	color: #4b4342;
+	font-weight: 500;
+}
+
+.about-section-two .devider_icon_one{
+	margin-bottom: 20px;
+}
+
+.about-section-two.alternate{
+	padding: 110px 0 90px;
+}
+
+.about-section-two.alternate .sec-title{
+	margin-bottom: 10px;
+}
+
+.about-section-two.alternate .sec-title .divider{
+	margin-bottom: 0;
+}
+
+.about-section-two.alternate .devider_icon_one{
+	margin-bottom: 0px;
+}
+
+.sec-title .divider{
+	position: relative;
+	display: block;
+	width: 100%;	
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sec-title h2 {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #4b4342;
+    font-weight: 500;
+}
