@@ -21,11 +21,17 @@ https://alister-bank.cmsmasters.net/
 
 ### Zona Pública
 https://teremotobettoni.github.io/CottonCookies/
+https://teremotobettoni.github.io/CottonCookies/productos.html
+https://teremotobettoni.github.io/CottonCookies/contact.html
 
 
 ### Zona Privada
-https://stgoneira.github.io/desarrollo-frontend-banco/admin  
+
 
 **usuario:** prueba@gmail.com  
 **contraseña:** 12345 
 
+## Pendientes 
+- Se desea incorporar seccion se Shom para generar pedidos personalizados
+- Login de usuario
+- Localización para envios
